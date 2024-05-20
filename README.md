@@ -8,7 +8,7 @@
 
  The function acomplishes this using exonential smoothing and concepts from differential calculus. You can change how strict the function is when finding these points by changing the `strictness_level` parameter that takes values of 1, 2 or 3. The higher the value, the more strict the model will be in selecting these points.
 
- ## `get_relevant_points` Parameters
+ ## `get_peaks` Parameters
 
  -`data` : The only required parameter. This is the source of the data where the time series is located. Must be a .csv or a .txt file containing comma seperated values.
 
